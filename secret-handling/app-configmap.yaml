@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-env-variable
+data:
+  APP_SECRET: "Very#Secure!"
+  APP_SEQUENCE: "123"
